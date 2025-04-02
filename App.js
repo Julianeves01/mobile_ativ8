@@ -1,20 +1,18 @@
-import React from 'react';
-import { StyleSheet,View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 import Header from './components/Header';
 import Card from './components/Card';
-import Footer from './components/Footer';
+import { Overlay } from 'react-native-elements';
 
 
 
 
-export default function App() {
+export default function Page() {
   return (
     <View style={styles.container}>
       <Header />
       <Card />
       <Card/>
-      <footer/>
     </View>
   );
 }
@@ -22,13 +20,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    height: '100%',
-    width: '100%',
     display: 'flex',
     flexDirection: 'column',
-    backgroundColor: '#fff',
+    backgroundColor: 'pink',
     alignItems: 'center',
     justifyContent: 'center',
-    gap:50,
   },
 });
