@@ -1,29 +1,45 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
-export default function Card() {
+const Card = () => {
     return (
-        <View style={styles.card}>
-            <Text style={styles.text}> ai que vida difícil</Text>
+        <View style={styles.content}>
+            <Text style={styles.title}>My card title</Text>
+            <Text style={styles.title}>🎀</Text>
+            <Text style={styles.subtitle}>My card subtitle</Text>
         </View>
     );
-}
+};
 
 const styles = StyleSheet.create({
-    card: {
-        padding: 20,
-        width: '100%',
-        backgroundColor: '#pink',
+    content : {
+        backgroundColor: 'rgba(253, 156, 206, 0.77)',
+        marginTop: 20,
+        width: '90%',
+        height: '30%',
         borderRadius: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: 180,
-        height: 180,
+        padding: 20,
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+        marginBottom: 20,
     },
-    text: {
-        color: '#000',
-        fontSize: 18,
-        fontWeight: 'bold',
-        textAlign: 'center',
+
+    title : {
+        fontSize: 24,
+        padding: 2,
+        textAlign: 'flex-start',
+        fontWeight: '600',
+        color: 'white',
+        marginTop: 5,
+    },
+
+    subtitle : {
+        fontSize: 15,
+        marginTop: '20',
+        padding: 10,
+        color: 'white',
+        textAlign: 'flex-start',
     },
 });
+
+export default Card;

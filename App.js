@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, } from 'react-native';
 
 import Header from './components/Header';
 import Card from './components/Card';
