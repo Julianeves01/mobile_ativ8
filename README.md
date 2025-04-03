@@ -45,9 +45,6 @@ Siga os passos abaixo para rodar o projeto localmente:
 mobile_ativ8/
 ├── src/
 │   ├── components/   # Componentes reutilizáveis
-│   ├── screens/      # Telas do aplicativo
-│   ├── services/     # Serviços (API, etc.)
-│   ├── utils/        # Funções utilitárias
 │   └── assets/       # Imagens, fontes, etc.
 ├── App.js            # Arquivo principal do app
 └── package.json      # Configurações do projeto
@@ -62,10 +59,5 @@ Este projeto está sob a licença [MIT](LICENSE). 📝
 
 ---
 
-## 📞 Contato
-
-
-
----
 
 Feito por [Julia Neves](https://github.com/Julianeves01). 👨‍💻
